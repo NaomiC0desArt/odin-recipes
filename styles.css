@@ -1,10 +1,15 @@
 *{
     box-sizing: border-box;
     font-family: 'Verdana', 'Georgia', 'Serif';
+    color: #f3d9b1;
 }
 
 body{
     background-color: #03071e;
+}
+
+.contenedor{
+    margin-bottom: 5em;
 }
 
 .titulo{
@@ -21,3 +26,38 @@ body{
 .links a{
     color: #faa307;
 }
+
+.recipe-img{
+    height: 26em;
+    display: block;
+    margin: 35px auto;
+    border-radius: 30px;
+}
+
+.description{
+    color: #faa307;
+    text-align: center;
+}
+
+
+.ingredients, .steps{
+    color: #e85d04;
+}
+
+li{
+    margin: 5px;
+}
+
+.sub-ingredient{
+    color: #ffba08;
+}
+
+.gif{
+    display: block;
+    border-radius: 20px;
+    margin: 22px auto;
+    max-height: 470px;
+    max-width: 850px;
+}
+
+/*850*470*/
