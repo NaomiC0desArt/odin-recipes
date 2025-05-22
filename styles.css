@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Verdana', 'Georgia', 'Serif';
+}
+
+body{
+    background-color: #03071e;
+}
+
+.titulo{
+    text-align: center;
+    color: #ffba08;
+    margin: 50px;
+    font-size: 70px;
+}
+
+.links li{
+    color: #9d0208;
+}
+
+.links a{
+    color: #faa307;
+}
